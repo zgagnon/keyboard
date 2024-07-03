@@ -1,0 +1,29 @@
+meta:
+  engine: 4.0.4
+  version: 0.0.1
+  author: zgagnon
+units:
+  kx: cx
+  ky: cy
+  px: kx + 2
+  py: ky + 2
+points:
+  zones:
+    matrix:
+      columns:
+        pinky:
+          rows.mod.skip: true
+        ring:
+          rows.mod.skip: true
+        middle:
+        index:
+        inner:
+        twiddle:
+      rows:
+        thumb:
+        bottom:
+        home:
+        top:
+outlines:
+cases:
+pcbs:
